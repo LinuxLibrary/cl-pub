@@ -1,0 +1,4 @@
+# DOWNLOAD AND MODIFY THE CLOUDFORMATION TEMPLATE:
+--------------------------------------------------
+
+Download the "Drupal_Multi_AZ.template" from ""
