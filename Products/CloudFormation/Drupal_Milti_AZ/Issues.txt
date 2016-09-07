@@ -1,0 +1,3 @@
+Issues with HVM option of AMI		-	Resolved
+Issues with creating CPUAlarmHigh	-	Pending
+Issues with creating WaitCondition	-	Pending
