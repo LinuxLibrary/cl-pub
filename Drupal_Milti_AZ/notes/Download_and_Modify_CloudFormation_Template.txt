@@ -36,3 +36,12 @@ Step 5:
 Step 6:
 	Disable MultiAZ for DB
 	Set the Default to "false" in "MultiAZDatabase" section
+Step 7:
+	Change the AMI details
+	Under "AWSRegionArch2AMI" section you need to provide the AMI id.
+	- Go to the EC2 Dashboard
+	- Click on AMIs in the Left pane
+	- Search for the AMIs which are free and also supports HVM
+	- Get the id of the AMI
+	- Change the ID in the template
+	  "us-west-2"      : { "32" : "ami-46da5576", "64" : "ami-7172b611", "64HVM" : "ami-7172b611" }
