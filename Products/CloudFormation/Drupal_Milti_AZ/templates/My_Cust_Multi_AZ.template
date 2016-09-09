@@ -112,8 +112,8 @@
       "Default": "2",
       "Description" : "The initial number of WebServer instances",
       "Type": "Number",
-      "MinValue": "1",
-      "MaxValue": "5",
+      "MinValue": "2",
+      "MaxValue": "6",
       "ConstraintDescription" : "must be between 1 and 5 EC2 instances."
     },
     "SSHLocation" : {
@@ -456,7 +456,8 @@
       "DependsOn" : "WebServerGroup",
       "Properties" : {
         "Handle" : {"Ref" : "WaitHandle"},
-        "Timeout" : "600"
+        "Timeout" : "1200",
+	"Count" : {"Ref" :"WebServerCapacity"}
       }
     },
 
