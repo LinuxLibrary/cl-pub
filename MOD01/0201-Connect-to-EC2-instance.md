@@ -17,4 +17,6 @@ If you a key already then you can use that by selecting the key you have.
 	- Ubuntu	- ubuntu
 - Know the public DNS or IP of that instance
 - Connect to your instance through ssh in the below way
+```
 	# ssh -i <my_key>.pem <user>@<DNS/IP>
+```
