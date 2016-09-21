@@ -14,10 +14,12 @@ Let us configure the instances first
 - Click on Advanced Details
 - Click on User Data
 - Give the following script
+```
 	#!/bin/bash -v 
 	yum -y install httpd
 	service httpd start
 	echo "<h1>WEB-01 $HOSTNAME</h1>" > /var/www/html/index.html
+```
 - Click Next to Add Storage
 - Click Next to Tag Instance
 - Click Next to add SG
