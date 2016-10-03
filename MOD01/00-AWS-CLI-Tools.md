@@ -16,7 +16,7 @@
 
 * Step 2 : Install awscli using PIP
 ```
-pip install 
+pip install awscli
 ```
 
 * Step 3 : Verify
