@@ -6,11 +6,11 @@
 ```
 - CentOS :
 
- $ apt-get install python-pip
+ # apt-get install python-pip
 
 - UBUNTU :
 
- $ yum install -y python-pip
+ # yum install -y python-pip
 
 ```
 
