@@ -1,1 +1,0 @@
-# Cloud Formation Templates
