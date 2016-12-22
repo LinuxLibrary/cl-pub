@@ -13,3 +13,7 @@ A subnet is a short form of sub-network or a subsection of a network.
 	- Now we should have another RT say RT-#2 associated with the subnet in which we have the DB instance
 	- RT-#2 should have the Networks in which we have the EC2 instances as the routes, but should not have the IGW
 - In this way we can have specific Subnets have access to the internet and also can some be Denied to have access to the Internet.
+
+> Public subnets are the subnets which can be accessed through the internet.
+
+> Private subnets can not be accessed through the Internet
