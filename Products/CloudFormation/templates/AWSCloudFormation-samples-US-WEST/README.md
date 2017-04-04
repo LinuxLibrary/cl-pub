@@ -1,0 +1,1 @@
+AWSCloudFormation samples US_WEST
