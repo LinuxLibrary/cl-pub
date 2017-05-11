@@ -31,3 +31,10 @@ Subnet Name		: myWebAppsSN
 Enable DNS Hostnames	: Yes
 Hardware Tenancy	: Default
 ```
+
+- With the above options click on Create VPC
+- Once its done go to your VPC console and check what it has created by default.
+
+---
+
+
