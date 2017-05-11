@@ -65,3 +65,11 @@ Hardware Tenancy	: Default
 	- This is a subnet level traffic firewall which controls the Inbound and Outbound traffic based on the rules set
 	- We can filter the traffic based on source and protocols
 	- It is stateless as the traffic is filtered strictly. This means the return traffic is not allowed automatically but we need to set rules as needed
+
+---
+
+***VPC Peering***
+
+- It is also called as Inter-VPC routing
+- This can be configured for same or different AWS accounts
+- Strictly no overlapping of network adresses. Means we should not use the same IP ranges for the VPCs we are trying to connect to
