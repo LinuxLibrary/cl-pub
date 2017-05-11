@@ -3,6 +3,7 @@
 | About VPC |
 -------------
 |Amazon Virtual Private Cloud (Amazon VPC) enables you to launch Amazon Web Services (AWS) resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS.|
+
 ***Creating VPC***
 
 - From the AWS console under the Networking group we have VPC
