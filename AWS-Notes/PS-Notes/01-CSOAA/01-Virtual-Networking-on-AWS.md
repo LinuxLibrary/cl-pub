@@ -19,3 +19,12 @@
 ***AWS Reference Model for VPC***
 
 ![AWS_Reference_Model](images/AWS_Reference_Model.JPG)
+
+---
+
+***IP Address Blocks***
+
+- AWS reserves 5 adresses per a subnet for DNS, DHCP and for Gateway purpose etc.
+- Single Region and Multi AZ functionality
+- CIDR availability is 16 - 28
+- We can select the IP prefix as per our choice from the 3 private classes with the CIDR availabillity mentioned above
