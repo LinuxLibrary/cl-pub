@@ -37,4 +37,25 @@ Hardware Tenancy	: Default
 
 ---
 
+***VPC Access Methods***
 
+- Gateway
+	- Internet Gateway (IGW): which allows the Ingress and Egress traffic to the VPC
+	- Virtual Private Gateway (VPG): which is AWS side secure VPN
+	- Customer Gateway (CG): which is customer side secure VPN which can be configured using a Hardware VPN device
+- VPN
+	- Direct Connect: which is dedicated and isolated, bipases internet and also have HA connectivity supported
+	- Hardware Based VPN: which can establish connection from on-premesis to AWS over internet. It supports HA and 3rd party brands
+
+---
+
+***VPC Security***
+
+- Security Groups
+	- This is a resource level traffic firewall through which we can control the traffic at instance level say EC2 Instances,ELB, etc.
+	- We can control the Ingress and Egress traffic
+	- It is stateful as it allows the return traffic
+- Access Control Lists (ACL)
+	- This is a subnet level traffic firewall which controls the Inbound and Outbound traffic based on the rules set
+	- We can filter the traffic based on source and protocols
+	- It is stateless as the traffic is filtered strictly. This means the return traffic is not allowed automatically but we need to set rules as needed
