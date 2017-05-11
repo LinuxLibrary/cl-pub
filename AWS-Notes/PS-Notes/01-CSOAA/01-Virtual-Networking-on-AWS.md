@@ -1,6 +1,7 @@
 # Understanding Virtual Networking on AWS
 
 ***What is VPC?***
+
 - For Networking in AWS we use Virtual Private Cloud (VPC)
 - VPC is a logically isolated network in the AWS cloud
 - It is the main network within we can have our subnets for EC2, RDS instances and every other thing which requires network.
@@ -16,4 +17,5 @@
 ---
 
 ***AWS Reference Model for VPC***
+
 ![AWS_Reference_Model](images/AWS_Reference_Model.JPG)
