@@ -8,7 +8,7 @@
 	```
 	Name 		: myCustVPC01
 	CIDR Block 	: 192.168.0.0/16
-	Tenancy		: Default
+	Tenancy	: Default
 	```
 	
 	- Click `Yes Create`
