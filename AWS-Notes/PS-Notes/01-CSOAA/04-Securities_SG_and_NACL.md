@@ -13,6 +13,7 @@
 	- Allow all outbound until allow
 
 	> NOTE: Instances can't communicate unless allowed
+
 	> Destination port filtering only (no source port filtering)
 
 - Network Access Control Lists (NACLs)
