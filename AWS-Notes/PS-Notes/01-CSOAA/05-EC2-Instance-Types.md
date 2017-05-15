@@ -23,6 +23,7 @@
 	- Highly scriptable
 
 ***EC2 Instance Family***
+
 	- Micro instances
 	- General purpose instances
 		- T2 (nano, micro, small, medium, large, xlarge, 2xlarge)
