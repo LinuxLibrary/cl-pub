@@ -7,6 +7,7 @@
 - EBS volume data is replicated accross multiple servers in an availability zone
 - SLA is 99.95%
 
+[Amazon EBS Volumes Types](https://aws.amazon.com/ebs/details/)
 General Purpose (SSD) | Provisioned IOPS (SSD) | Magnetic
 ----------------------|------------------------|---------
 System boot volumes | I/O intensives | Infrequent Data Access
