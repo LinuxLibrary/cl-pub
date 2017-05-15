@@ -9,7 +9,7 @@
 
 General Purpose (SSD) | Provisioned IOPS (SSD) | Magnetic
 ----------------------|------------------------|---------
-- System boot volumes | I/O intensives | Infrequent Data Access
-- Virtual Desktops | Relational DBs |
-- Small to medium DBs | NoSQL DBs |
-- Dev and Test | | 
+System boot volumes | I/O intensives | Infrequent Data Access
+Virtual Desktops | Relational DBs |
+Small to medium DBs | NoSQL DBs |
+Dev and Test | | 
