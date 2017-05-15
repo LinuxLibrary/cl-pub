@@ -22,8 +22,9 @@
 	- Ideal for raw processing power, grid like applications
 	- Highly scriptable
 
-***EC2 Instance Family***
+---
 
+- ***EC2 Instance Family***
 	- Micro instances
 	- General purpose instances
 		- T2 (nano, micro, small, medium, large, xlarge, 2xlarge)
