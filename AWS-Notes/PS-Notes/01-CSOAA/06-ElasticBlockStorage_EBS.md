@@ -15,3 +15,14 @@ System boot volumes | I/O intensives | Infrequent Data Access
 Virtual Desktops | Relational DBs |
 Small to medium DBs | NoSQL DBs |
 Dev and Test | | 
+
+---
+
+***EBS - Optimized Instances***
+
+- Dedicated capacity for Amazon EBS I/O
+- Available at speeds 500 Mbps to 4000 Mbps
+- GP-SSD within 10% base line and burst performance 99% of the time
+- PIOPS within 10% of provisioned performance 99% of time
+- EBS optimized instances are designed for use with all EBS volume types
+- Additional hourly price
