@@ -62,7 +62,9 @@
 	
 	Check the below 2 options
 	1. Enable Cross-zone load balancing
-	2. Enable connection draining : 300 Secs (This will make the new users not connected to the unhealthy instances and connections on the old instances drained slowly but not immediately, depending on what the app/user is doing)
+	2. Enable connection draining : 300 Secs 
+	(This will make the new users not connected to the unhealthy instances and connections on the o
+	ld instances drained slowly but not immediately, depending on what the app/user is doing)
 	```
 
 	- Step 6 : Add Tags
