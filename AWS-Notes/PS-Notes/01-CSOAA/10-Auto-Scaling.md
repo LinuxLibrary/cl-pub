@@ -46,12 +46,12 @@
 	- Step 2: Configure Scaling Policies
 
 	```
-	Create Aut0 Scaling Group
-
 	Select `Use scaling policies to adjust the capacity of this group`
 	
 	Scale between `min` and `max` instances. This is where we can set the mn and max number of instances scaled
-	
+	```
+
+	```
 	Increase Group Size:
 	
 	Name : IncreaseGroupSize
@@ -67,7 +67,9 @@
 	`Add` `3` `instances` when `90` <= CPUUtilization < +infinity
 
 	Instances need `300` seconds to warm up after each step
+	```
 
+	```
 	Decrease Group Size:
 
 	Name : DecreaseGroupSize
