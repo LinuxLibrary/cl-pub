@@ -26,7 +26,7 @@
 
 ---
 
-- *** Routing Policies***
+- ***Routing Policies***
 
 	- ***Single / Simple Routing Policy:***
 		- Simple routing policy is a simple round robin policy and can be applied when there is a single resource doing the function for the domain for e.g. web server that serves content for the website
