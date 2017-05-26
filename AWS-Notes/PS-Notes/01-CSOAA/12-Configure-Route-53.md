@@ -8,7 +8,7 @@
 
 	```
 	Domain Name 	: linux-library.in
-	Comment		: Linux Library
+	Comment	: Linux Library
 	Type		: Public / Private Hosted Zone
 	```
 	
