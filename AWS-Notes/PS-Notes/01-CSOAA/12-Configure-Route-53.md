@@ -61,9 +61,9 @@
 	IP Address		: < SERVER_IP_ADDRESS >
 	Hostname		: < MY_HOST_NAME >
 	Port			: < PORT_NUMBER >
-	Path			: /`index.htm(l)`
+	Path			: /index.htm(l)
 	Request Interval	: Standard (30 seconds) / Fast (10 seconds)
-	Failure Threshold	: ``
+	Failure Threshold	: 3 (As per your choice)
 	Enable String Matching	: Yes / No (If Yes provide the Search String)
 	```
 
