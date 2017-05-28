@@ -20,4 +20,4 @@
 
 # Manage Users
 
-![IAMUser01.JPG](/images/IAMUser01.JPG)
+![IAMUser01.JPG](images/IAMUser01.JPG)
