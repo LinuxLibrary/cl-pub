@@ -15,3 +15,9 @@
 - Rotate – Rotate security credentials regularly.
 - Conditions – Restrict privileged access further with conditions.
 - Root – Reduce or remove use of root.
+
+---
+
+# Manage Users
+
+![IAMUser01.JPG](/images/IAMUser01.JPG)
