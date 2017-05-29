@@ -38,3 +38,32 @@
 
 	- Click on `Next Step`
 	- Review and create the group
+
+---
+
+# Roles
+
+- This can be useful to deal with the applications. Some times we need to have some specific privillages on accessing some applications
+- In such cases we can use the roles.
+- Roles are just like the special users we create in our OS environments to manage through. For managing the applications we need to switch to that user.
+- In the same way we can create a role in AWS IAM to which we need to switch and through that we can manage the applications
+- Creating a `Role`
+	- Click on `Create New Role`
+	- Give it a name and click on `Next Step`. In my case `EC2Apps`
+	- Select Role Type. I am selecting `Amazon EC2`
+	- Attach policy. In my case `AdministratorAccess`
+	- Review and create
+
+---
+
+# Policies
+
+- Policy is a list of permissions
+- Creating a policy
+	- Go to policies in the left pane of the AWS IAM Console
+	- Click on `Create Policy`
+	- Select either of the way you need it
+		- Copy an AWS Managed Policy
+		- Policy Generator
+		- Create Your Own Policy
+	- Review and create
