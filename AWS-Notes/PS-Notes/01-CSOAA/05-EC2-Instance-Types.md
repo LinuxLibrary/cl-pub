@@ -1,0 +1,46 @@
+# EC2 Instance Types
+
+- On Demand Instances
+	- With On-Demand instances you only pay for EC2 instances you use. The use of On-Demand instances frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are commonly large fixed costs into much smaller variable costs.
+	- This is the default option
+	- Most expensive
+	- No commitment
+	- Prices vary by AWS Region
+	- Billed on an hourly basis
+- Reserved Instances
+	- Less expensive
+	- Requires a commitment of (1 or 3 years)
+	- Reserved capacity
+	- Lower hourly rate
+	- RI can be sold on AWS Market Place
+	- You commit to utilization
+- Spot Instances
+	- Unused AWS Capacity
+	- Very cheap hourly rate
+	- Not guaranted
+	- Based on a bid
+	- Ideal for raw processing power, grid like applications
+	- Highly scriptable
+
+---
+
+- ***EC2 Instance Family***
+	- Micro instances
+	- General purpose instances
+		- T2 (nano, micro, small, medium, large, xlarge, 2xlarge)
+		- M4 (large, xlarge, 2xlarge, 4xlarge, 10xlarge, 16xlarge)
+		- M3 (medium, large, xlarge, 2xlarge)
+	- Compute Optimized
+		- C4 (large, xlarge, 2xlarge, 4xlarge, 8xlarge)
+		- C3 (large, xlarge, 2xlarge, 4xlarge, 8xlarge)
+	- GPU Instances
+		- P2 (xlarge, 8xlarge, 16xlarge)
+		- G2 (2xlarge, 8xlarge)
+		- F1 (2xlarge, 16xlarge)
+	- Memory optimized
+		- X1 (32xlarge, 16xlarge)
+		- R4 (large, xlarge, 2xlarge, 4xlarge, 8xlarge, 16xlarge)
+		- R3 (large, xlarge, 2xlarge, 4xlarge, 8xlarge)
+	- Storage optimized
+		- I3 (large, xlarge, 2xlarge, 4xlarge, 8xlarge, 16xlarge)
+		- D2 (large, xlarge, 2xlarge, 4xlarge, 8xlarge)
